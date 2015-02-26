@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Search Selection",
+  "description": "Search selected text from the context menu (right-click).",
+  "version": "0.2",
+  "author": "Austin Heiman",
+
+  "permissions": [
+    "contextMenus"
+  ],
+
+  "icons": {
+    "16": "images/magnifying_glass_16.png",
+    "48": "images/magnifying_glass_48.png",
+    "128": "images/magnifying_glass_128.png"
+  },
+
+  "background": {
+    "scripts": ["searches.js", "event.js"],
+    "persistent": false
+  }
+}

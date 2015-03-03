@@ -4,6 +4,10 @@ var searches = [
     url: "http://en.wikipedia.org/wiki/Special:Search?search=%s"
   },
   {
+    title: "Bing",
+    url: "http://www.bing.com/search?q=%s"
+  },
+  {
     title: "Google",
     url: "https://www.google.com/search?q=%s"
   },
